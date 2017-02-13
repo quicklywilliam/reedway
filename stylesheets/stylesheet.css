@@ -297,9 +297,19 @@ Full-Width Styles
   bottom: 40px;
   margin: 0;
   color: black;
-  font-size: 38px;
+  font-size: 58px;
   font-weight: 700;
   text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+}
+
+#downloads {
+  position: absolute;
+  width: 210px;
+  z-index: 10;
+  bottom: -40px;
+  right: 0;
+  height: 70px;
+  background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
 .header-text {
@@ -326,7 +336,7 @@ Full-Width Styles
     margin-right: 10px;
     border: none;
     width: 60%;
-    margin-right: -30%;
+    margin-right: -25%;
     display: inline-block;
 }
 
@@ -347,7 +357,7 @@ Full-Width Styles
   margin-right: 10px;
   border: none;
   width: 60%;
-  margin-left: -40%;
+  margin-left: -35%;
   display: inline-block;
 }
 
@@ -370,12 +380,16 @@ Full-Width Styles
 
 .survey {
   text-align: center;
-  
   overflow: hidden;
 }
 
 .survey-details {
 	font-style: italic;
+}
+
+.survey-header {
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .survey:hover {
