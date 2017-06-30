@@ -275,7 +275,7 @@ Full-Width Styles
 #header_wrap .innerHeader {
     position: relative;
     margin: 0 auto;
-	
+
   bottom: 30px;
   left:0; right:0;
 }
@@ -302,14 +302,13 @@ Full-Width Styles
   text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+.download {
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 2px dashed grey;
+  background: url('../images/icon_download.png') no-repeat 0% 0%;
 }
 
 .header-text {
@@ -373,9 +372,9 @@ Full-Width Styles
 .survey-wrapper {
     display: block;
     padding: 20px;
-	
+
     background: #D5DED9;
-    border: 1px solid #111;	
+    border: 1px solid #111;
 }
 
 .survey {
@@ -390,6 +389,11 @@ Full-Width Styles
 .survey-header {
 	font-weight: bold;
 	font-size: 20px;
+}
+
+.survey-subheader {
+	font-weight: bold;
+	font-size: 14px;
 }
 
 .survey:hover {
@@ -422,7 +426,7 @@ Small Device Styles
   body {
     font-size:14px;
   }
- 
+
   #downloads {
     display: none;
   }
