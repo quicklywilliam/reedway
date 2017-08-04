@@ -387,11 +387,17 @@ Full-Width Styles
 .survey-wrapper {
     display: block;
     padding: 20px;
+    margin-top: 24px;
 
     background: #D5DED9;
     border: 1px solid #111;
 }
-
+.caption {
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
 .survey {
   text-align: center;
   overflow: hidden;
